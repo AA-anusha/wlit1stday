@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  </head>
+  <body>
+    <table class="table table-striped">
+    <thead>
+    <tr>
+      <th>#</th>
+      <th>name:</th>
+      <th>college:</th>
+      <th>course:</th>
+      <th>semester:</th>
+      <th>facebookLink:</th>
+      <th>profilePicture:</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td><%= person.name %></td>
+      <td><%= person.college %></td>
+      <td><%= person.course %></td>
+      <td><%= person.semester %></td>
+      <td><a href="<%=person.facebookLink %>" target='_blank'>Anusha Singh</a>
+      <td><img src='<%=person.profilePicture %>' height="128" width="128"></a>
+      <td>
+
+    </tr>
+    
+
+  </tbody>
+
+    	
+    </table>
+
+
+
+  </body>
+</html>
